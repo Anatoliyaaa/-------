@@ -1,0 +1,15 @@
+micro_services/docker-compose.yml
+micro_services/auth_service/auth_microservices.py
+micro_services/auth_service/Dockerfile
+micro_services/esb/Dockerfile
+micro_services/esb/esb.py
+micro_services/notification_service/Dockerfile
+micro_services/notification_service/notification_microservice.py
+micro_services/profile_service/Dockerfile
+micro_services/profile_service/profile_microservice.py
+project_root/__pycache__/data_bus.cpython-312.pyc
+project_root/__pycache__/main.cpython-312.pyc
+project_root/__pycache__/data_bus.cpython-312.pyc
+project_root/__pycache__/main.cpython-312.pyc
+project_root/__pycache__/data_bus.cpython-312.pyc
+project_root/__pycache__/main.cpython-312.pyc

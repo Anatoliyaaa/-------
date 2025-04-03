@@ -1,0 +1,24 @@
+services:
+  esb:
+    build: ./esb
+    ports:
+      - "5000:5000"
+    depends_on:
+      - service_order
+      - service_payment
+      - service_notification
+
+  service_order:
+    build: ./service_order
+    ports:
+      - "5001:5001"
+
+  service_payment:
+    build: ./service_payment
+    ports:
+      - "5002:5002"
+
+  service_notification:
+    build: ./service_notification
+    ports:
+      - "5003:5003"
